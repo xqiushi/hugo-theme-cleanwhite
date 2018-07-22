@@ -30,9 +30,9 @@ home = ["HTML", "RSS", "Algolia"]
 
   # algolia site search
   algolia_search = true 
-  algolia_appId = "NM6H97ZREU"
-  algolia_indexName = "ReddyWang"
-  algolia_apiKey = "f262a5267d0fec5e9290e967da2b9af1"
+  algolia_appId = " "
+  algolia_indexName = " "
+  algolia_apiKey = " "
 
   # Sidebar settings
   sidebar_about_description = "我是一只牛!"
@@ -43,7 +43,7 @@ home = ["HTML", "RSS", "Algolia"]
   featured_condition_size = 2 
 
   # Baidu Analytics
-  ba_track_id = "b2c4371f24aed2f4c6c6f0d6e19546cc"
+  ba_track_id = " "
   
   # We need a proxy to access Disqus api in China
   disqus_proxy = ""
