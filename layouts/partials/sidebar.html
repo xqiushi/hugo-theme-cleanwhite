@@ -27,10 +27,11 @@
 
     <!-- Short About -->
     <section class="visible-md visible-lg">
-        <hr><h5><a href="">ABOUT ME</a></h5>
+        <hr><h5><a href="{{ .Site.BaseURL }}about.html">ABOUT ME</a></h5>
         <div class="short-about">
+            <a href="{{ .Site.BaseURL }}about.html">
             {{ with .Site.Params.sidebar_avatar }}
-            <img src="{{ . | absURL }}" />
+            <img src="{{ . | absURL }}" /></a>
             {{ end }}
             {{ with .Site.Params.sidebar_about_description }}
                 <p>{{ . }}</p>

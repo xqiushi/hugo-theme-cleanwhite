@@ -1,9 +1,9 @@
-baseurl = ""
-title = "Huabing Blog"
+baseurl = "https://Reddy.Wang/"
+title = "睿递网"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "i-am-an-ox"
 googleAnalytics = ""
 preserveTaxonomyNames = true
 paginate = 5 #frontpage pagination
@@ -11,13 +11,14 @@ hasCJKLanguage = true
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
-
+[permalinks]
+    post = "/:year/:month/:day/:filename/"
 [params]
   header_image = "img/home-bg-jeep.jpg"
-  SEOTitle = "赵化冰的博客 | Zhaohuabing Blog"
-  description = "赵化冰，程序员, 开源爱好者，生活探险家 | 这里是 赵化冰 的博客，与你一起发现更大的世界。"
-  keyword = "赵化冰, zhaohuabing, Zhaohuabing, , 赵化冰的网络日志, 赵化冰的博客, Zhaohuabing Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice"
-  slogan = "路在脚下，心向远方"
+  SEOTitle = "睿递网 | Reddy.Wang"
+  description = "我是一只牛, 以牛的精神自居, 学了很久英语和Python无果, 放弃了! 最近又喜欢心理学、地理学 "
+  keyword = "xqiushi, GIS, Python, Qgis, 心理学, 地理信息系统, 我是一只牛, 博客, 个人网站, MacOS"
+  slogan = "Your life path is not depend on your destiny, it is depend on your choice!"
 
   image_404 = "img/404-bg.jpg"
   title_404 = "你来到了没有知识的荒原 :("
@@ -28,20 +29,21 @@ home = ["HTML", "RSS", "Algolia"]
   leancloud_app_key = ""
 
   # algolia site search
-  algolia_search = false 
-  algolia_appId = ""
-  algolia_indexName = ""
-  algolia_apiKey = ""
+  algolia_search = true 
+  algolia_appId = "NM6H97ZREU"
+  algolia_indexName = "ReddyWang"
+  algolia_apiKey = "f262a5267d0fec5e9290e967da2b9af1"
 
   # Sidebar settings
-  sidebar_about_description = "Software Developer, Open Source Enthusiast and Life Adventurer"
-  sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_about_description = "我是一只牛!"
+  sidebar_avatar = "img/avatar-xqs.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
 
   featured_tags = true 
   featured_condition_size = 2 
 
   # Baidu Analytics
-  ba_track_id = ""
+  ba_track_id = "b2c4371f24aed2f4c6c6f0d6e19546cc"
   
   # We need a proxy to access Disqus api in China
   disqus_proxy = ""
@@ -49,21 +51,54 @@ home = ["HTML", "RSS", "Algolia"]
 
   [params.social]
   rss            = true 
-  email          = "youemail@gmail.com"
+  email          = "gisxqs@gmail.com"
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
   #twitter       = "full profile url in twitter"
-  linkedin       = "full profile url in linkedin"
-  stackoverflow  = "full profile url in stackoverflow"
+  #linkedin       = "full profile url in linkedin"
+  #stackoverflow  = "full profile url in stackoverflow"
   #instagram     = "full profile url in instagram"
-  github         = "full profile url in github"
-  wechat         = "link of wechat QR code image"
+  github         = "https://github.com/xqiushi"
+  #wechat         = "link of wechat QR code image"
   #pinterest     = "full profile url in pinterest"
   
   [[params.friend_link]]
-  title = "Linda的博客"
-  href =  "https://zhaozhihan.com"
+  title = "Huabing Blog"
+  href =  "https://zhaohuabing.com"
+  [[params.friend_link]]
+  title = "观星者清雨"
+  href =  "https://blog.gazer.win"
+  [[params.friend_link]]
+  title = "老杨说话的地方"
+  href =  "https://yangyq.net"
+  [[params.friend_link]]
+  title = "爱浪漫的程序媛"
+  href =  "http://hongbowei.com"
+  [[params.friend_link]]
+  title = "雅岚文藝博客"
+  href =  "http://yalanlife.net"
+  [[params.friend_link]]
+  title = "思绪的空中生活"
+  href =  "https://sixu.life"
+  [[params.friend_link]]
+  title = "禾令奇"
+  href =  "https://www.helingqi.com"
+  [[params.friend_link]]
+  title = "夜阑静"
+  href =  "http://www.yelanjing.com"
+  [[params.friend_link]]
+  title = "掩耳"
+  href =  "https://yeaher.net"
+  [[params.friend_link]]
+  title = "阳志平的网志"
+  href =  "https://www.yangzhiping.com"
+  [[params.friend_link]]
+  title = "苹果fans博客"
+  href =  "http://www.mac52ipod.cn"
 
+  [[params.bookmark_link]]
+  title =  "QGIS"
+  href =  "https://qgis.org"
   [[params.bookmark_link]]
   title =  "Martin Fowler"
   href =  "https://martinfowler.com"
